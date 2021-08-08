@@ -8,5 +8,10 @@ Dim a As Long
 a = 10
 Debug.Print a
 
+Dim ws As Worksheet
+
+Set ws = ThisWorkbook.Worksheets("Sheets1")
+
+
 
 End Sub
